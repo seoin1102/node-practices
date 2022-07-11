@@ -20,11 +20,24 @@ Node Practices
     npm i ejs [local install, general dependency]
     npm i -D nodemon [local install, dev. dependency]
     npm i -g gulp    [global install, general dependency]
-    npx gulp --version
+    npx gulp --version (설치 테스트)
 4) 패키지 삭제 예제
+    npm un ejs [local install 삭제]
+    npm un -g gulp [global install 삭제]
+    npx gulp --version (삭제 테스트)
 
 4. Node(JavaScript) Project 생성
+    1) 프로젝트 생성(mkdir)
+    2) 프로젝트 이동(cd)
+    3) 프로젝트 초기화: 프로젝트 매니페스트(manifest) 파일인 package.json를 생성
+        $[project-ex02] npm init -y
 5. Module
+    1) 코어 모듈: node에서 제공하는 주는 모듈(fs, os, ....)
+    2) 파일 모듈: 파일 경로로 불러와서 모듈안의 함수, 객체를 사용한다.
+    3) npm 모듈: npm을 통해서 node_modules에 설치하고 사용하는 모듈
+        - 원격배포
+        - 로컬배포
+
 6.
 7.
 8.
