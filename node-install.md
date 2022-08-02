@@ -1,4 +1,3 @@
-
 ## Python3 Installation
 
 ### Mac
@@ -158,7 +157,6 @@
 		```
     
 
-
 ## Node Installation
 
 ### Mac OS
@@ -279,23 +277,20 @@
     
     ```
 
-2.	설치
-    v14.4.0을 설치할 것이다. /usr/local/kickscar/node-v14.4.0에 설치할 것이다.
+2. 설치
+   
 
     ```sh
-    wget https://nodejs.org/dist/v14.4.0/node-v14.4.0.tar.gz
-    tar xvfz node-v14.4.0.tar.gz
+    wget https://nodejs.org/dist/v16.15.1/node-v16.15.1-linux-x64.tar.gz
+    tar xvfz node-v16.15.1-linux-x64.tar.gz
     
-	cd node-v14.4.0
-	./configure --prefix=/usr/local/kickscar/node-v14.4.0
-    make && make install
-	
+    cp -R node-v16.15.1 /usr/local/douzone/node16.15.1
     ```
 
 3.	링크 작업
 
     ```sh
-    ln -s /usr/local/kickscar/node-v14.4.0 /usr/local/kickscar/node
+    ln -s /usr/local/dozuone/node16.15.1 /usr/local/dozuone/node
 	
     ```
 
@@ -303,7 +298,7 @@
 
     ```sh
     # node 
-    export PATH=$PATH:/usr/local/kickscar/node/bin
+    export PATH=$PATH:/usr/local/dozuone/node/bin
     ```
 
 5.	설정 적용 및 설치 확인
